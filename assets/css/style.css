@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #FFFF00;
+    --primary-color-darker: #FF0000;
+}
+
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+html{
+    max-width: 100%;
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    background-image: -webkit-repeating-linear-gradient(45deg, blue, red 33.3%);
+    background-position: 100%;
+    text-align: center;
+}
+
+body ::placeholder {
+    font-size: 20px;
+}
+
+.container {
+    position: relative;
+    max-width: 500px;
+    margin: 60px auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 2rem;
+}
+
+body h1 {
+    text-align: center;
+}
+
+body h2 {
+    text-align: left;
+    margin-top: 30px;
+}
+
+form input,
+form label {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: left;
+
+}
+
+form button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+form input {
+    font-size: 1.3rem;
+    height: 3rem;
+    padding: 0 1rem;
+}
+
+form input:focus {
+    outline: 1px solid var(--primary-color);
+}
+
+form button {
+    display: block;
+    border: none;
+    background-color: var(--primary-color);
+    color: black;
+    font-size: 1.6rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 3rem;
+    border-radius: 20px;
+    height: auto;
+    width: 40%;
+    align-content: center;
+}
+
+form button:hover {
+    background-color: var(--primary-color-darker);
+    transition: all 300ms ease-in-out;
+}
+
+form button:active {
+    background-color: red;
+}
+
+.paragrafo-resultado .bad {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+}
+
+.bad {
+    background-color: rgb(199, 81, 81);
+}
+
+.text-pass {
+    color: #fff;
+    text-shadow: 2px 2px 3px black;
+    font-family: 'Open sans', sans-serif;
+    width: 100%;
+    height: 20px;
+    padding-top: 20px;
+}
+
+footer {
+    margin: auto;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.0);
+    padding: 1rem;
+    color: #000;
+    text-shadow: #000 0.1rem 0 0.5rem;
+    text-align: center;
+    align-content: center;
+    font-size: 1rem;
+}
+
+footer p{
+    margin: 3rem;
+}
