@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="ramon, celino">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="text-pass">
+            <marquee direction="left">O IMC é reconhecido como padrão internacional para avaliar o grau de sobrepeso e obesidade. É calculado dividindo o peso (em quilos) pela altura ao quadrado (em metros).</marquee>
+        </nav>
+    </header>
+    <section class="container">
+        <h1>Tabela IMC</h1>
+        <h2>IMC</h2>
+        <p>Menor do que 18,5</p>
+        <p>Entre 18,5 e 24,9</p>
+        <p>Entre 25 e 29,9</p>
+        <p>Entre 30 e 34,9</p>
+        <p>Entre 35 e 39,9</p>
+        <p>Maior do que 40</p>
+
+        <form action="/" id="form" method="post">
+            <h2>Calcule o seu Índice de Massa Corporal</h2>
+            <label for="peso">Peso:</label>
+            <input type="text" id="peso" name="peso" placeholder="Ex:. 70" required>
+            <label for="altura">Altura:</label>
+            <input type="text" id="altura" name="altura" placeholder="Ex:. 1.65" required>
+            <button type="submit" class="button-center">Calcular</button>
+        </form>
+
+        <div id="result"></div>
+    </section>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+<footer>
+    <p>&copy; Ramon Celino - Software Developer</p>
+</footer>
+
+
+</html>
