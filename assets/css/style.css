@@ -9,10 +9,12 @@
     outline: none;
     box-sizing: border-box;
 }
-html{
+
+html {
     max-width: 100%;
     height: 100%;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -91,6 +93,7 @@ form button {
 form button:hover {
     background-color: var(--primary-color-darker);
     transition: all 300ms ease-in-out;
+    letter-spacing:0.15em;
 }
 
 form button:active {
@@ -127,6 +130,6 @@ footer {
     font-size: 1rem;
 }
 
-footer p{
+footer p {
     margin: 3rem;
 }
